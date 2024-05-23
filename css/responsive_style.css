@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+header .navbar-expand-lg .navbar-nav .dropdown-menu { position: absolute; transition: all 0.3s ease;
+    display: block; visibility: hidden;  opacity: 0;  top: 120%; }
+header li.nav-item.dropdown:hover > .dropdown-menu { visibility: visible; opacity: 1; top: 100%; padding: 0; }
+}
+
+
+@media(min-width: 991px) and (max-width: 1200px){
+  header .top-header h1{ font-size: 26px; }
+  header .top-header h6{font-size: 17px;}
+  header .top-header{padding: 10px 0;}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  header .top-header{padding: 10px 0;}
+  header .top-header a img{width: 150%;}
+ header .top-header h1{    font-size: 17px;}
+ header .top-header h5{text-align: center;font-size: 12px;}
+.admission-open{padding: 0;}
+.about h1 a{    font-size: 25px;}
+.about p{font-size: 12px;}
+.chairman{padding: 40px 0;}
+.chairman h1{font-size: 24px;}
+.gallery{padding: 20px 0;}
+.latest-news{padding: 20px 0;}
+.facilities{padding: 20px 0;}
+.footer h1{font-size: 14px;}
+.footer p{font-size: 12px;}
+.enquiry-form{padding: 20px;}
+.contact-us-page p{font-size: 12px;}
+}
+
+
+
+@media (max-width: 767px) {	
+  header .top-header h5{text-align: center;float: none;}
+      .about .btn-success{margin: 10px 0;}
+      .chairman h1{margin: 10px 0 0;     font-size: 30px;}
+     .admission-open{padding: 0;}
+     .admission-open .btn-success{margin: 20px 0 0;}
+     .about h1 a{font-size: 27px;}
+     .chairman{padding: 20px 0;}
+     .gallery{padding: 20px 0;}
+     .latest-news{padding: 20px 0;}
+     .facilities{padding: 20px 0;}
+
+}
+
+
+@media (max-width: 575px) {
+  
+}
